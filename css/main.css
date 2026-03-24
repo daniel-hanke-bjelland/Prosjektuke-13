@@ -1,13 +1,17 @@
 body{
     margin: 0px;
     background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: exo_2;
 }
 
+/* Nav bar start */
 nav {
     width: 100%;
     /* padding-left: 70px; */
     /* background-color: rgba(0, 0, 255, 0.246); */
     padding: 15px 0px 15px 70px;
+    font-family: mukta-medium;
 }
 
 nav ul {
@@ -28,3 +32,17 @@ nav ul li a {
     margin-right: 300px;
     height: 50px;
 }
+/* Nav bar slutt */
+
+
+/* Fonter start */
+@font-face {
+    font-family: mukta-medium;
+    src: url(../font/mukta/Mukta-Medium.ttf);
+}
+
+@font-face {
+    font-family: exo_2;
+    src: url(../font/exo_2/static/Exo2-Light.ttf);
+}
+/* Fonter slutt */
