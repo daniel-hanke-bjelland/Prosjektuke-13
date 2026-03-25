@@ -30,7 +30,7 @@ const quiz = [
             },
             {
                 id: 2,
-                label: "Monika"
+                label: "Monica"
             },
             {
                 id: 3,
@@ -152,8 +152,10 @@ function nesteSporsmål() {
 
         let sammendragOmrådet = document.getElementById("sammendrag");
 
+        let personligSammendrag = document.getElementById("personlig_sammendrag");
+
         sammendragOmrådet.style.display = "flex";
-        sammendragOmrådet.innerHTML += `<p>Din poengsumm er ${totalscore} av totalt ${quizLengde} mulige poeng.</p>`
+        personligSammendrag.innerHTML += `<p>Din poengsumm er ${totalscore}, av totalt ${quizLengde} mulige poeng.</p>`
 
         let highscoreList = JSON.parse(localStorage.getItem("highscore")) || [];
         
@@ -165,6 +167,15 @@ function nesteSporsmål() {
             highscoreList.push(currentUser);
             localStorage.setItem("highscore", JSON.stringify(highscoreList))    
         }
+
+        let higscoreOmradet = document.getElementById("highscore");
+
+        console.log(highscoreList);
+
+        highscoreList.slice(0,5).forEach(person => {
+            console.log(person.navn);
+            higscoreOmradet.innerHTML += `<p>${person.navn} har ${person.poeng} poeng</p>`
+        });
 
         // highscoreList = [...highscoreList,...currentUser]
     }

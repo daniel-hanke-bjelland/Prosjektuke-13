@@ -196,6 +196,7 @@ footer {
 
 #sammendrag {
     display: none;
+    flex-direction: column;
 }
 
 /* Fonter start */
