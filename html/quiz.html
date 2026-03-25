@@ -1,0 +1,78 @@
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/script.js" defer ></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li> <img id="nav_logo" src="../img/Ferdig logo transparent.png" alt="Logoen"></li>
+            <li><a href="./grafisk_profil.html">grafisk profil</a></li>
+            <li><a href="./quiz.html">quiz</a></li>
+            <li><a href="./videoinnslag.html">videoinnslag</a></li>
+            <li><a href="./annonse.html">annonser</a></li>
+        </ul>
+    </nav>
+
+    <div class="ladning_wrapper_1">
+        <h1>Quiz</h1>
+
+        <div id="quiz-registrer_wrapper1" >
+                <label for="">Navn</label>
+                <input type="text" placeholder="Ola Nordmann" id="input_navn">
+                <button onclick="registrer()" >Start Quizen</button>
+        </div>
+
+        <div class="quiz-omradet_wrapper">
+
+            <div id="quiz-omradet">
+                <h2 id="sprøsmål"></h2>
+                
+                <div id="quiz_buttonOmradet">
+                    <!-- <button>A</button>
+                    <button>B</button>
+                    <button>C</button>
+                    <button>D</button> -->
+                </div>
+                <p id="tilbakemelding"></p>
+                <div id="neste"></div>
+            </div>
+
+            <div id="sammendrag">
+                <h3>Ditt sammendrag</h3>
+
+                <div id="personlig_sammendrag"></div>
+
+                <div id="highscore">
+                    <h3>Highscore liste</h3>
+                </div>
+                <div class="sammendrag-knapper">
+                    <button onclick="startPaNytt()" >Start på nytt</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer_logo"><img src="../img/Ferdig logo transparent.png" alt=""></div>
+        <div class="footer_text-wrapper">
+            <div class="footer_text">
+                <h3>Laget av</h3>
+                <p>Daniel Hanke Bjelland</p>
+            </div>
+            <div class="footer_text">
+                <h3>Kontakt</h3>
+                <p>danielbje@afk.no</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
