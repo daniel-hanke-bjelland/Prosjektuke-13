@@ -2,9 +2,6 @@ body{
     margin: 0px;
     background-color: #F8FAFC;
     color: #0F172A;
-    /* font-family: exo_2; */
-    /* font-family: inter; */
-    /* font-weight: 100; */
     font-family: manrope;
     letter-spacing: 0.6px;
     line-height: 1.7;
@@ -20,9 +17,7 @@ a {
 nav {
     width: 100%;
     /* padding-left: 70px; */
-    /* background-color: rgba(0, 0, 255, 0.246); */
     padding: 15px 0px 15px 70px;
-    /* font-family: mukta-medium; */
     font-family:Plus_Jakarta_Sans;
     box-sizing: border-box;
 }
@@ -52,7 +47,6 @@ nav ul li a {
 
 /* Landingpage start */
 #landing_overksrift {
-    /* font-family: mukta-medium; */
     font-family: Plus_Jakarta_Sans;
     font-size: 50px;
     font-weight: 300;
@@ -99,7 +93,6 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    /* font-family: exo_2; */
     box-shadow: 3px 3px #0f172a4a;
     cursor: pointer;
     font-family: Plus_Jakarta_Sans;
@@ -113,7 +106,6 @@ nav ul li a {
 
 .section-wrapper1 {
     width: 100%;
-    /* background-color: rgba(0, 0, 255, 0.247); */
     display: flex;
     justify-content: center;
     margin-top: 320px;
@@ -130,8 +122,6 @@ nav ul li a {
 }
 
 .section-wrapper_video {
-    /* background-color: rgba(128, 0, 128, 0.345); */
-    /* background-color: blue; */
     background-image: url("https://evofitness.no/wp-content/uploads/2023/11/F411F28C-8081-4F5B-943C-420838EF9522_1_201_a-768x512.jpeg");
     background-size: cover;
     display: flex;
@@ -148,9 +138,6 @@ nav ul li a {
 }
 
 .section-wrapper_text {
-    /* background-color: rgba(255, 166, 0, 0.478); */
-    /* text-align: center; */
-    /* font-weight: 600; */
     padding: 20px;
 }
 
@@ -158,8 +145,6 @@ nav ul li a {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* height: 50%; */
-    /* border-radius: 5px; */
 }
 
 #section-a {
@@ -167,7 +152,6 @@ nav ul li a {
     display: flex;
     width: 60%;
     justify-content: center;
-    /* align-self: center; */
     justify-self: center;
     background-color: #6B8FA8;
     color: white;
@@ -181,14 +165,12 @@ footer {
     width: 100%;
     /* height: 500px; */
     height: 480px;
-    /* background-color: rgba(0, 0, 255, 0.416); */
     display: flex;
     font-family: Plus_Jakarta_Sans;
 }
 
 .footer_logo {
     width: 45%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,14 +182,10 @@ footer {
 
 .footer_text-wrapper {
     width: 55%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* justify-content: space-around; */
-    /* flex-direction: column; */
     gap: 200px;
-    /* row-gap: 100px; */
 }
 
 .footer_text {
@@ -234,9 +212,6 @@ footer {
     /* background-color: rgba(0, 0, 255, 0.347); */
     display: none;
 }
-
-/* .quiz-omradet {
-} */
 
 .svar_riktig {
     background-color: green;
