@@ -64,7 +64,7 @@ function loadQuiz() {
     
     console.log(sprøsmålOmrådet);
 
-    console.log(firstElement.spørsmål);
+    // console.log(firstElement.spørsmål);
 
     sprøsmålOmrådet.textContent += `${firstElement.spørsmål}`;
     
@@ -108,9 +108,10 @@ function checkAnswer(knappId, rikigSvar) {
     }
 }
 
+
 function nesteSporsmål() {
     nummer++;
-
+    
     let nextElement = quiz[nummer];
     let sprøsmålOmrådet = document.getElementById("sprøsmål");
     let quizButtonOmradet = document.getElementById("quiz_buttonOmradet");
@@ -170,7 +171,7 @@ function registrer() {
 
         localStorage.setItem("bruker", JSON.stringify(bruker));
 
-        
+
         registrerOmrådet.style.display = "none";
 
         let quizOmradet = document.getElementsByClassName("quiz-omradet_wrapper")[0];
@@ -180,8 +181,34 @@ function registrer() {
 
         loadQuiz()
     }
-
-    
-
-
 }
+
+// function registrerNyBruker() {
+//     console.log("PRØVER Å REGISTRERE PÅ NYTT");
+
+//     let quizOmradetWrapper = document.getElementsByClassName("quiz-omradet_wrapper")[0];
+
+//     quizOmradetWrapper.style.display = "none";
+
+//     let registrerOmrådet = document.getElementById("quiz-omradet_wrapper");
+//     registrerOmrådet.style.display = "flex";
+// }
+
+
+function startPaNytt() {
+    // console.log("Vil starte på nytt med samme burker");
+
+    // let quizOmrådet = document.getElementById("quiz-omradet");
+    // quizOmrådet.style.display = "flex";
+
+    // let sammendragOmrådet = document.getElementById("sammendrag");
+
+    // sammendragOmrådet.style.display = "none";
+
+    // nummer = 0;
+
+    // loadQuiz(nummer)
+
+    window.location.reload("./script.js");
+}
+
