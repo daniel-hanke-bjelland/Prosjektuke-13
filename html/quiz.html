@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="../css/main.css">
-    <script src="../js/script.js" defer></script>
+    <script src="../js/script.js" defer ></script>
 </head>
 <body>
 
@@ -20,6 +20,12 @@
 
     <div class="ladning_wrapper_1">
         <h1>Quiz</h1>
+
+        <div id="quiz-registrer_wrapper1" >
+                <label for="">Navn</label>
+                <input type="text" placeholder="Ola Nordmann" id="input_navn">
+                <button onclick="registrer()" >Start Quizen</button>
+        </div>
 
         <div class="quiz-omradet_wrapper">
 
@@ -37,7 +43,7 @@
             </div>
 
             <div id="sammendrag">
-                <!-- <h2>Ditt sammendrag</h2> -->
+                <h2>Ditt sammendrag</h2>
             </div>
             
         </div>

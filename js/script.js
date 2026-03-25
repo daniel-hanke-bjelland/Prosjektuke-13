@@ -139,16 +139,49 @@ function nesteSporsmål() {
     } else {
         console.log("Du har kommet til siste side.");
 
-        let sammendragOmrådet = document.getElementById("sammendrag");
         let quizOmrådet = document.getElementById("quiz-omradet");
+        quizOmrådet.style.display = "none";
+
+        let sammendragOmrådet = document.getElementById("sammendrag");
 
         sammendragOmrådet.style.display = "flex";
-        sammendragOmrådet.innerHTML += `<h2>Din poengsumm er ${totalscore} av totalt ${quizLengde} mulige poeng.</h2>`
+        sammendragOmrådet.innerHTML += `<p>Din poengsumm er ${totalscore} av totalt ${quizLengde} mulige poeng.</p>`
 
-        quizOmrådet.style.display = "none";
     }
 
    
 }
 
-loadQuiz()
+// loadQuiz()
+
+function registrer() {
+
+    console.log("PRØVER Å REGGISTRERE");
+    let registrerOmrådet = document.getElementById("quiz-registrer_wrapper1");
+
+    let navn = document.getElementById("input_navn").value;
+    console.log(navn);
+
+    if (navn !== "") {
+            let bruker = {
+            navn
+        }
+        console.log(bruker);
+
+        localStorage.setItem("bruker", JSON.stringify(bruker));
+
+        
+        registrerOmrådet.style.display = "none";
+
+        let quizOmradet = document.getElementsByClassName("quiz-omradet_wrapper")[0];
+        console.log(quizOmradet);
+
+        quizOmradet.style.display = "flex";
+
+        loadQuiz()
+    }
+
+    
+
+
+}

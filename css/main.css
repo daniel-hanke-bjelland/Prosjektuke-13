@@ -176,10 +176,14 @@ footer {
 
 
 /* Quiz page start */
-.quiz-omradet {
+.quiz-omradet_wrapper {
     width: 700px;
     background-color: rgba(0, 0, 255, 0.347);
+    display: none;
 }
+
+/* .quiz-omradet {
+} */
 
 /* Quiz page slutt */
 .svar_riktig {
