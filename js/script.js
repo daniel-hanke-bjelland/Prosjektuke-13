@@ -102,9 +102,11 @@ function checkAnswer(knappId, rikigSvar) {
     
     let bruker = JSON.parse(localStorage.getItem("bruker"));
     console.log(bruker);
-    bruker.poeng = totalscore;
-    console.log(bruker);
-    localStorage.setItem("bruker", JSON.stringify(bruker));
+    if (bruker) {
+        bruker.poeng = totalscore;
+        console.log(bruker);
+        localStorage.setItem("bruker", JSON.stringify(bruker));
+    }
     
     if (valgtSvar) {
         let nesteKnapp = document.getElementById("neste");
@@ -153,11 +155,23 @@ function nesteSporsmål() {
         sammendragOmrådet.style.display = "flex";
         sammendragOmrådet.innerHTML += `<p>Din poengsumm er ${totalscore} av totalt ${quizLengde} mulige poeng.</p>`
 
-    }
+        let highscoreList = JSON.parse(localStorage.getItem("highscore")) || [];
+        
+        let currentUser = JSON.parse(localStorage.getItem("bruker"));
 
+        console.log(currentUser);
+
+        if (currentUser) {
+            highscoreList.push(currentUser);
+            localStorage.setItem("highscore", JSON.stringify(highscoreList))    
+        }
+
+        // highscoreList = [...highscoreList,...currentUser]
+    }
+    
    
 }
-
+ 
 // loadQuiz()
 
 function registrer() {
@@ -169,9 +183,7 @@ function registrer() {
     console.log(navn);
 
     if (navn !== "") {
-            let bruker = {
-            navn
-        }
+            let bruker = {navn};
         console.log(bruker);
 
         localStorage.setItem("bruker", JSON.stringify(bruker));
