@@ -201,8 +201,12 @@ footer {
     align-items: center;
 }
 
-.footer_text h3 {
+.foother_label {
     margin: 0px;
+}
+
+.foother_brødtekst {
+    margin: 16px 0px;
 }
 /* Landingpage slutt */
 
