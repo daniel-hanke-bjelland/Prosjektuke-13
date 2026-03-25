@@ -2,7 +2,13 @@ body{
     margin: 0px;
     background-color: #F8FAFC;
     color: #0F172A;
-    font-family: exo_2;
+    /* font-family: exo_2; */
+    /* font-family: inter; */
+    /* font-weight: 100; */
+    font-family: manrope;
+    letter-spacing: 0.6px;
+    line-height: 1.7;
+    font-weight: 400;
 }
 
 a {
@@ -16,7 +22,8 @@ nav {
     /* padding-left: 70px; */
     /* background-color: rgba(0, 0, 255, 0.246); */
     padding: 15px 0px 15px 70px;
-    font-family: mukta-medium;
+    /* font-family: mukta-medium; */
+    font-family:Plus_Jakarta_Sans;
     box-sizing: border-box;
 }
 
@@ -45,9 +52,10 @@ nav ul li a {
 
 /* Landingpage start */
 #landing_overksrift {
-    font-family: mukta-medium;
+    /* font-family: mukta-medium; */
+    font-family: Plus_Jakarta_Sans;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0px 0px 20px 0px;    
     /* color: #0F172A; */
 }
@@ -69,7 +77,10 @@ nav ul li a {
     margin: 0px;
     text-align: center;
     line-height: 1.5;
-    /* letter-spacing: 0.5px; */
+    font-family: manrope;
+    letter-spacing: 0.6px;
+    line-height: 1.7;
+    font-weight: 400;
 }
 
 .button_omradet{
@@ -91,6 +102,8 @@ nav ul li a {
     /* font-family: exo_2; */
     box-shadow: 3px 3px #0f172a4a;
     cursor: pointer;
+    font-family: Plus_Jakarta_Sans;
+    /* font-weight: 400; */
 }
 
 #laning_pil {
@@ -128,15 +141,16 @@ nav ul li a {
     height: 50%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    font-size: 30px;
     color: white;
-    font-weight: 800;
+    font-size: 30px;
+    font-family: Plus_Jakarta_Sans;
+    /* font-weight: 400; */
 }
 
 .section-wrapper_text {
     /* background-color: rgba(255, 166, 0, 0.478); */
     /* text-align: center; */
-    font-weight: 600;
+    /* font-weight: 600; */
     padding: 20px;
 }
 
@@ -169,6 +183,7 @@ footer {
     height: 480px;
     /* background-color: rgba(0, 0, 255, 0.416); */
     display: flex;
+    font-family: Plus_Jakarta_Sans;
 }
 
 .footer_logo {
@@ -203,10 +218,12 @@ footer {
 
 .foother_label {
     margin: 0px;
+    /* font-weight: 500; */
 }
 
 .foother_brødtekst {
     margin: 16px 0px;
+    font-weight: 400;
 }
 /* Landingpage slutt */
 
@@ -221,7 +238,6 @@ footer {
 /* .quiz-omradet {
 } */
 
-/* Quiz page slutt */
 .svar_riktig {
     background-color: green;
 }
@@ -234,6 +250,7 @@ footer {
     display: none;
     flex-direction: column;
 }
+/* Quiz page slutt */
 
 /* Fonter start */
 @font-face {
@@ -244,5 +261,20 @@ footer {
 @font-face {
     font-family: exo_2;
     src: url(../font/exo_2/static/Exo2-Thin.ttf);
+}
+
+@font-face {
+    font-family: Plus_Jakarta_Sans;
+    src: url(../font/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: manrope;
+    src: url(../font/Manrope/Manrope-VariableFont_wght.ttf);
 }
 /* Fonter slutt */
