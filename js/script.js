@@ -100,6 +100,11 @@ function checkAnswer(knappId, rikigSvar) {
         
     }
     
+    let bruker = JSON.parse(localStorage.getItem("bruker"));
+    console.log(bruker);
+    bruker.poeng = totalscore;
+    console.log(bruker);
+    localStorage.setItem("bruker", JSON.stringify(bruker));
     
     if (valgtSvar) {
         let nesteKnapp = document.getElementById("neste");
