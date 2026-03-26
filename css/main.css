@@ -332,6 +332,168 @@ footer {
 }
 /* Quiz page slutt */
 
+
+/* Grafisk profil page start */
+.grafisk_profil_wrappee_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#grafisk_intro {
+    margin: 0px;
+}
+
+.designmanual_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 200px;
+    margin-top: 250px;
+}
+
+.designmanual_wrapper2 {
+    /* height: 60px; */
+    width: 80%;
+    /* background-color: rgba(0, 0, 255, 0.397); */
+    display: flex;
+}
+
+.designmanual_tema {
+    width: 20%;
+    /* height: 100%; */
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designmanual_innhold {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font_tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font_tekst p{
+    margin: 0px;
+}
+
+#font_logo {
+    font-family: Centrifuge;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#font_plus_jakarta_sans {
+    font-family: Plus_Jakarta_Sans;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#font_manrope {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.farger {
+    /* width: 40px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+#farge_1 {
+    background-color: #F8FAFC;
+    border: 1px dashed black;
+    width: 100px;
+    height: 100px;
+}
+
+#farge_2 {
+    background-color: #0F172A;
+    width: 100px;
+    height: 100px;
+}
+
+#farge_3 {
+    background-color: #6B8FA8;
+    width: 100px;
+    height: 100px;
+}
+
+.farger_tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.farger_tekst p {
+    margin: 0px;
+}
+
+#logo_vanlig {
+    width: 200px;
+    height: 70px;
+    background-image: url(../img/logo/1x/Vanlig.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo_skisse {
+    width: 200px;
+    height: 70px;
+    background-image: url(../img/logo/skisse.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo_lys_bakgrunnd {
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    background-image: url(../img/logo/1x/Lys\ bakgrunn.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo_mørk_bakgrunnd {
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    background-image: url(../img/logo/1x/Mørk\ bakgrunn.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logoer_tekst {
+    display: flex;
+    justify-content: center;
+}
+
+.logoer_tekst p {
+    margin: 0px;
+}
+
+#designmanual_pdf {
+    width: 700px;
+
+}
+/* Grafisk profil page slutt */
+
 /* Fonter start */
 @font-face {
     font-family: mukta-medium;
