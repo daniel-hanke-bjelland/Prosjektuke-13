@@ -1,47 +1,245 @@
 const quiz = [
     {
-        spørsmål: "Hva heter jeg?",
+        spørsmål: "Hvilken enhet måler elektrisk strøm?",
         valg: [
             {
                 id: 1,
-                label: "Daniel"
+                label: "Volt"
             },
             {
                 id: 2,
-                label: "Furkan"
+                label: "Watt"
             },
             {
                 id: 3,
-                label: "Leonell"
+                label: "Ampere"
             },
             {
                 id: 4,
-                label: "Mikael"
+                label: "Ohm"
             }
         ],
-        rikigSvar: 1
+        rikigSvar: 3
     },    
     {
-        spørsmål: "Hva heter læreren?",
+        spørsmål: "Hva er forskjellen på serie- og parallellkobling?",
         valg: [
             {
                 id: 1,
-                label: "Gøril"
+                label: "Serie gir samme spenning over alle komponenter"
             },
             {
                 id: 2,
-                label: "Monica"
+                label: "Parallell gir samme strøm gjennom alle komponenter"
             },
             {
                 id: 3,
-                label: "Knut Ivar"
+                label: "Serie deler spenningen mellom komponenter"
             },
             {
                 id: 4,
-                label: "Geir"
+                label: "Ingen forskjell"
+            }
+        ],
+        rikigSvar: 3
+    },   
+    {
+        spørsmål: "Hva er normal kroppstemperatur hos mennesker?",
+        valg: [
+            {
+                id: 1,
+                label: "35°C"
+            },
+            {
+                id: 2,
+                label: "37°C"
+            },
+            {
+                id: 3,
+                label: "39°C"
+            },
+            {
+                id: 4,
+                label: "40°C"
             }
         ],
         rikigSvar: 2
+    },  
+    {
+        spørsmål: "Hva betyr kondisjon?",
+        valg: [
+            {
+                id: 1,
+                label: "Kroppens evne til å utføre langvarig arbeid"
+            },
+            {
+                id: 2,
+                label: "Muskelstyrke"
+            },
+            {
+                id: 3,
+                label: "Hurtighet"
+            },
+            {
+                id: 4,
+                label: "Fleksibilitet"
+            }
+        ],
+        rikigSvar: 1
+    },
+    {
+        spørsmål: "Hva betyr opphavsrett?",
+        valg: [
+            {
+                id: 1,
+                label: "Hva betyr opphavsrett?"
+            },
+            {
+                id: 2,
+                label: "Hva betyr opphavsrett?"
+            },
+            {
+                id: 3,
+                label: "HurRett til gratis programvaretighet"
+            },
+            {
+                id: 4,
+                label: "Rett til reklame"
+            }
+        ],
+        rikigSvar: 2
+    },
+    {
+        spørsmål: "Hva er en primærkilde i historie?",
+        valg: [
+            {
+                id: 1,
+                label: "En bok skrevet senere"
+            },
+            {
+                id: 2,
+                label: "En original kilde fra tiden hendelsen skjedde"
+            },
+            {
+                id: 3,
+                label: "En film"
+            },
+            {
+                id: 4,
+                label: "En artikkel"
+            }
+        ],
+        rikigSvar: 2
+    },
+    {
+        spørsmål: "Hva er CRM i salg?",
+        valg: [
+            {
+                id: 1,
+                label: "Customer Relationship Management"
+            },
+            {
+                id: 2,
+                label: "Computer Retail Machine"
+            },
+            {
+                id: 3,
+                label: "Customer Retail Method"
+            },
+            {
+                id: 4,
+                label: "Commerce Retail Model"
+            }
+        ],
+        rikigSvar: 1
+    },
+    {
+        spørsmål: "Hva er hydraulikk?",
+        valg: [
+            {
+                id: 1,
+                label: "Kraftoverføring med væske"
+            },
+            {
+                id: 2,
+                label: "Kraftoverføring med luft"
+            },
+            {
+                id: 3,
+                label: "Elektrisk kraft"
+            },
+            {
+                id: 4,
+                label: "Varme"
+            }
+        ],
+        rikigSvar: 1
+    },
+    {
+        spørsmål: "Hva er en algoritme?",
+        valg: [
+            {
+                id: 1,
+                label: "En type datamaskin"
+            },
+            {
+                id: 2,
+                label: "En steg-for-steg løsning på et problem"
+            },
+            {
+                id: 3,
+                label: "En nettside"
+            },
+            {
+                id: 4,
+                label: "En database"
+            }
+        ],
+        rikigSvar: 2
+    },
+    {
+        spørsmål: "Hva betyr begrepet “dugnad” i norsk kultur?",
+        valg: [
+            {
+                id: 1,
+                label: "Frivillig arbeid for fellesskapet"
+            },
+            {
+                id: 2,
+                label: "En type mat"
+            },
+            {
+                id: 3,
+                label: "En skoleeksamen"
+            },
+            {
+                id: 4,
+                label: "En sport"
+            }
+        ],
+        rikigSvar: 1
+    },
+    {
+        spørsmål: "Hva er et viktig kjennetegn på et godt klassemiljø?",
+        valg: [
+            {
+                id: 1,
+                label: "Konkurranse mellom elever"
+            },
+            {
+                id: 2,
+                label: "Stillhet i timene"
+            },
+            {
+                id: 3,
+                label: "Trygghet og respekt"
+            },
+            {
+                id: 4,
+                label: "Strenge regler"
+            }
+        ],
+        rikigSvar: 3
     },
 ]
 
