@@ -212,10 +212,17 @@ footer {
 /* Quiz page start */
 .page_wrapper_1{
     width: 100%;
+    height: 576px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
+}
+
+#quiz-registrer_wrapper1, .quiz-omradet_wrapper {
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 #quiz-registrer_wrapper1 {
@@ -226,6 +233,7 @@ footer {
     /* row-gap: 20px; */
     gap: 20px;
 }
+
 
 #label_navn {
     font-size: 20px;
@@ -257,6 +265,8 @@ footer {
     /* display: flex; */
     /* align-items: center; */
     justify-content: center;
+    display: none;
+    /* border: 1px solid black; */
 }
 
 #quiz-omradet {
@@ -271,28 +281,49 @@ footer {
 }
 
 #quiz_buttonOmradet {
-    display: flex;
+    /* display: flex; */
+    /* width: 100%; */
+    /* height: 100%; */
     /* flex-direction: column; */
+    /* gap: 20px; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 300px 300px; /* fast bredde */
+    grid-auto-rows: 1fr;
     gap: 20px;
+    justify-content: center; /* sentrer grid */
 }
 
 #quiz_buttonOmradet button {
-    
-    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #6B8FA8;
+    color: #F8FAFC;
     font-family: manrope;
     font-size: 20px;
     font-weight: 400;
     border: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 
 .svar_riktig {
-    background-color: green;
+    background-color: green !important;
 }
 
 .svar_feil {
-    background-color: red;
+    background-color: red !important;
+}
+
+.nesteKnapp {
+    background-color: #6B8FA8;
+    color: #F8FAFC;
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 #sammendrag {
