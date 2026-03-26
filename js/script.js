@@ -309,7 +309,7 @@ function checkAnswer(knappId, rikigSvar) {
     if (valgtSvar) {
         let nesteKnapp = document.getElementById("neste");
         
-        nesteKnapp.innerHTML = `<button onclick="nesteSporsmål()" >Neste</button>`;
+        nesteKnapp.innerHTML = `<button class="nesteKnapp" onclick="nesteSporsmål()" >Neste</button>`;
     }
 }
 
