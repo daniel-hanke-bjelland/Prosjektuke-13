@@ -11,20 +11,20 @@
     <nav>
         <ul>
             <li> <img id="nav_logo" src="../img/Ferdig logo transparent.png" alt="Logoen"></li>
-            <li><a href="./grafisk_profil.html">grafisk profil</a></li>
-            <li><a href="./quiz.html">quiz</a></li>
-            <li><a href="./videoinnslag.html">videoinnslag</a></li>
-            <li><a href="./annonse.html">annonser</a></li>
+            <li><a href="./html/grafisk_profil.html">grafisk profil</a></li>
+            <li><a href="./html/quiz.html">quiz</a></li>
+            <li><a href="./html/videoinnslag.html">videoinnslag</a></li>
+            <li><a href="./html/annonse.html">annonser</a></li>
         </ul>
     </nav>
 
-    <div class="ladning_wrapper_1">
+    <div class="page_wrapper_1">
         <h1>Quiz</h1>
 
         <div id="quiz-registrer_wrapper1" >
-                <label for="">Navn</label>
-                <input type="text" placeholder="Ola Nordmann" id="input_navn">
-                <button onclick="registrer()" >Start Quizen</button>
+            <label id="label_navn" for="">Navn:</label>
+            <input type="text" placeholder="Ola Nordmann" id="input_navn">
+            <buttson id="register_button" onclick="registrer()" >Start Quizen</button>
         </div>
 
         <div class="quiz-omradet_wrapper">
@@ -59,20 +59,22 @@
     </div>
 
 
-
+<!-- foother start -->
     <footer>
         <div class="footer_logo"><img src="../img/Ferdig logo transparent.png" alt=""></div>
         <div class="footer_text-wrapper">
             <div class="footer_text">
-                <h3>Laget av</h3>
-                <p>Daniel Hanke Bjelland</p>
+                <h3 class="foother_label">Laget av</h3>
+                <p class="foother_brødtekst">Daniel Hanke Bjelland</p>
             </div>
             <div class="footer_text">
-                <h3>Kontakt</h3>
-                <p>danielbje@afk.no</p>
+                <h3 class="foother_label" >Kontakt</h3>
+                <!-- <p>danielbje@afk.no</p> -->
+                 <a class="foother_brødtekst" href="mailto:danielbje@afk.no">danielbje@afk.no</a>
             </div>
         </div>
     </footer>
-    
+    <!-- foother slutt -->
+
 </body>
 </html>
