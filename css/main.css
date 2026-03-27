@@ -33,7 +33,7 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a::after {
+.navHover::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -45,7 +45,7 @@ nav ul li a::after {
     transition: width 0.4s ease;
 }
 
-nav ul li a:hover::after {
+.navHover:hover::after {
     width: 100%;
 }
 
