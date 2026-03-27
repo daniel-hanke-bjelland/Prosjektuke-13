@@ -401,6 +401,10 @@ footer {
     display: flex;
 }
 
+.designmanual_wrapper2 p {
+    margin: 0px;
+}
+
 .designmanual_tema {
     width: 20%;
     /* height: 100%; */
@@ -416,15 +420,11 @@ footer {
     justify-content: space-evenly;
 }
 
-.font_tekst {
+.font_tekst, .farger_tekst, .logoer_tekst {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.font_tekst p{
-    margin: 0px;
-}
+} 
 
 #font_logo {
     font-family: Centrifuge;
@@ -470,16 +470,6 @@ footer {
     height: 100px;
 }
 
-.farger_tekst {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.farger_tekst p {
-    margin: 0px;
-}
-
 #logo_vanlig {
     width: 200px;
     height: 70px;
@@ -518,15 +508,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-.logoer_tekst {
-    display: flex;
-    justify-content: center;
-}
-
-.logoer_tekst p {
-    margin: 0px;
-}
-
 #designmanual_pdf {
     width: 700px;
 
@@ -541,23 +522,6 @@ footer {
     justify-content: center;
     margin-top: 180px;
     gap: 80px;
-}
-
-.video-wrapper_video {
-    /* background-image: url("https://evofitness.no/wp-content/uploads/2023/11/F411F28C-8081-4F5B-943C-420838EF9522_1_201_a-768x512.jpeg");
-    background-size: cover; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color: white;
-    font-size: 30px;
-    font-family: Plus_Jakarta_Sans; */
-    /* font-weight: 400; */
-    /* width: 100%; */
 }
 
 .video-wrapper_text {
