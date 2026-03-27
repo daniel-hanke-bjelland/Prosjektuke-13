@@ -337,6 +337,21 @@ footer {
     border: none;
     padding: 10px 30px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz_buttonOmradet p {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+#buttonVideo {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px
 }
 
 .svar_riktig {
