@@ -116,7 +116,7 @@ nav ul li a {
 .section-wrapper2 {
     /* background-color: rgba(255, 255, 0, 0.425); */
     width: 370px;
-    height: 370px;
+    /* height: 370px; */
     border: 2px solid #0f172a7e;
     border-radius: 20px;
     padding-bottom: 20px;
@@ -174,10 +174,8 @@ nav ul li a {
     padding: 20px;
 }
 
-#section-video {
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.section-wrapper_text {
+    padding: 20px;
 }
 
 #section-a {
