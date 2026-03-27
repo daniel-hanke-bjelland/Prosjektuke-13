@@ -8,10 +8,6 @@ body{
     font-weight: 400;
 }
 
-a {
-    text-decoration: none;
-    color: #0F172A;
-}
 
 /* Nav bar start */
 nav {
@@ -46,6 +42,33 @@ nav ul li a {
 /* Nav bar slutt */
 
 
+/* Felles sider start */
+a {
+    text-decoration: none;
+    color: #0F172A;
+}
+
+#underside_intro {
+    margin: 0px;
+}
+
+.annonser_wrapper_1, .grafisk_profil_wrapper_1, .videoinnslag_wrapper_1, .ladning_wrapper_1, .quiz_wrapper_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.video-wrapper3, .section-wrapper2 {
+    width: 370px;
+    border: 2px solid #0f172a7e;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+/* Felles sider slutt */
+
+
 /* Landingpage start */
 #landing_overksrift {
     font-family: Plus_Jakarta_Sans;
@@ -56,12 +79,7 @@ nav ul li a {
 }
 
 .ladning_wrapper_1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 220px;
-    flex-direction: column;
 }
 
 #landing_ingress {
@@ -111,15 +129,6 @@ nav ul li a {
     justify-content: center;
     margin-top: 320px;
     gap: 80px;
-}
-
-.section-wrapper2 {
-    /* background-color: rgba(255, 255, 0, 0.425); */
-    width: 370px;
-    /* height: 370px; */
-    border: 2px solid #0f172a7e;
-    border-radius: 20px;
-    padding-bottom: 20px;
 }
 
 #section-wrapper_grafisk {
@@ -240,15 +249,10 @@ footer {
 /* Footer slutt */
 
 /* Quiz page start */
-.page_wrapper_1{
+.quiz_wrapper_1 {
     position: relative;
-    width: 100%;
     z-index: 4;
     height: 576px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
 }
 
 #quiz-registrer_wrapper1, .quiz-omradet_wrapper {
@@ -381,18 +385,6 @@ footer {
 
 
 /* Grafisk profil page start */
-.grafisk_profil_wrappee_1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-}
-
-#grafisk_intro {
-    margin: 0px;
-}
-
 .designmanual_wrapper {
     width: 100%;
     display: flex;
@@ -407,6 +399,10 @@ footer {
     width: 80%;
     /* background-color: rgba(0, 0, 255, 0.397); */
     display: flex;
+}
+
+.designmanual_wrapper2 p {
+    margin: 0px;
 }
 
 .designmanual_tema {
@@ -424,15 +420,11 @@ footer {
     justify-content: space-evenly;
 }
 
-.font_tekst {
+.font_tekst, .farger_tekst, .logoer_tekst {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.font_tekst p{
-    margin: 0px;
-}
+} 
 
 #font_logo {
     font-family: Centrifuge;
@@ -478,16 +470,6 @@ footer {
     height: 100px;
 }
 
-.farger_tekst {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.farger_tekst p {
-    margin: 0px;
-}
-
 #logo_vanlig {
     width: 200px;
     height: 70px;
@@ -526,15 +508,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-.logoer_tekst {
-    display: flex;
-    justify-content: center;
-}
-
-.logoer_tekst p {
-    margin: 0px;
-}
-
 #designmanual_pdf {
     width: 700px;
 
@@ -543,50 +516,12 @@ footer {
 
 
 /* Videoinnslag page start */
-.videoinnslag_wrapper_1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-}
-
-#videoinnslag_intro {
-    margin: 0px;
-}
-
 .video-wrapper2 {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 180px;
     gap: 80px;
-}
-
-.video-wrapper3 {
-    /* background-color: rgba(255, 255, 0, 0.425); */
-    width: 370px;
-    /* height: 370px; */
-    border: 2px solid #0f172a7e;
-    border-radius: 20px;
-    padding-bottom: 20px;
-}
-
-.video-wrapper_video {
-    /* background-image: url("https://evofitness.no/wp-content/uploads/2023/11/F411F28C-8081-4F5B-943C-420838EF9522_1_201_a-768x512.jpeg");
-    background-size: cover; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color: white;
-    font-size: 30px;
-    font-family: Plus_Jakarta_Sans; */
-    /* font-weight: 400; */
-    /* width: 100%; */
 }
 
 .video-wrapper_text {
@@ -602,26 +537,6 @@ footer {
 
 
 /* Annonser page start */
-.annonser_wrapper_1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-}
-
-.annonser_wrapper_1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-}
-
-#annonser_intro {
-    margin: 0px;
-}
-
 .annonser-wrapper2 {
     width: 100%;
     display: flex;
