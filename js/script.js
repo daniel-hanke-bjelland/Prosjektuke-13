@@ -242,7 +242,7 @@ const quiz = [
     rikigSvar: 3,
   },
   {
-    spørsmål: "Hva er riktig øvelse?",
+    spørsmål: 'Hva er riktig måte å gjøre "lat pulldown" på?',
     video: [
       {
         id: 1,
@@ -355,7 +355,7 @@ function nesteSporsmål() {
         quizButtonOmradet.innerHTML += `<button id="${vid.id}" onclick="checkAnswer(${vid.id},${nextElement.rikigSvar})" ><video id="buttonVideo" controls>
         <source src="${vid.url}" type="video/mp4">
         Your browser does not support the video tag.
-        </video></button>`;
+        </video> <p>Denne metoden</p> </button>`;
       });
     } else {
       console.log(knapper);
