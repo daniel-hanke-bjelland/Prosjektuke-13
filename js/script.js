@@ -352,10 +352,10 @@ function nesteSporsmål() {
 
     if (video) {
       video.forEach((vid) => {
-        quizButtonOmradet.innerHTML += `<button id="${vid.id}" onclick="checkAnswer(${vid.id},${nextElement.rikigSvar})" ><video width="320" height="240" controls>
-  <source src="${vid.url}" type="video/mp4">
-Your browser does not support the video tag.
-</video></button>`;
+        quizButtonOmradet.innerHTML += `<button id="${vid.id}" onclick="checkAnswer(${vid.id},${nextElement.rikigSvar})" ><video id="buttonVideo" controls>
+        <source src="${vid.url}" type="video/mp4">
+        Your browser does not support the video tag.
+        </video></button>`;
       });
     } else {
       console.log(knapper);
