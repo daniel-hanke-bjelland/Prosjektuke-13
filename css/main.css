@@ -241,7 +241,9 @@ footer {
 
 /* Quiz page start */
 .page_wrapper_1{
+    position: relative;
     width: 100%;
+    z-index: 4;
     height: 576px;
     display: flex;
     flex-direction: column;
@@ -335,13 +337,6 @@ footer {
     border: none;
     padding: 10px 30px;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#buttonVideo {
-    width: 200px;
 }
 
 .svar_riktig {
