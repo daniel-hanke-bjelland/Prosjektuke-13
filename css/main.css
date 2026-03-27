@@ -48,6 +48,10 @@ a {
     color: #0F172A;
 }
 
+button, .landing_button {
+  transition: transform 0.3s ease;
+}
+
 #underside_intro {
     margin: 0px;
 }
@@ -65,6 +69,12 @@ a {
     border: 2px solid #0f172a7e;
     border-radius: 20px;
     padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.section-wrapper2:hover, button:hover, .landing_button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 /* Felles sider slutt */
 
@@ -112,7 +122,8 @@ a {
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    box-shadow: 3px 3px #0f172a4a;
+    /* box-shadow: 3px 3px #0f172a4a; */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     font-family: Plus_Jakarta_Sans;
     /* font-weight: 400; */
