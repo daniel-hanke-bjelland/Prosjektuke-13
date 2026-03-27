@@ -30,6 +30,23 @@ nav ul li a {
     text-decoration: none;
     color: #0F172A;
     font-size: 17px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0%;
+    height: 2px;
+    background-color: currentColor;
+    transform: translateX(-50%);
+    transition: width 0.4s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 #nav_logo {
