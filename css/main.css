@@ -617,9 +617,9 @@ footer {
 
 .annonser-wrapper3 {
     /* background-color: rgba(255, 255, 0, 0.425); */
-    width: 600px;
+    width: 400px;
     /* height: 370px; */
-    border: 2px solid #0f172a7e;
+    /* border: 2px solid #0f172a7e; */
     border-radius: 20px;
     /* padding-bottom: 20px; */
     display: flex;
@@ -648,9 +648,11 @@ footer {
 
 #annonser-video {
     width: 100%;
+    aspect-ratio: 9 / 16;
     /* height: 100%; */
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
     /* border-top-right-radius: 20px; */
 }
 /* Annonser page slutt */
